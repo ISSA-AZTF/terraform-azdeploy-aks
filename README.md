@@ -17,4 +17,4 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
    -  Intégration de la surveillance via OMS Agent
 - Déploiement d’un pod et service NGINX pour vérification   
 ## ⚙️ Déploiement
-Prérequis
+**Prérequis**

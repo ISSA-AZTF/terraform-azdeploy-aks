@@ -17,9 +17,9 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 - Génération d’un nom unique pour le cluster via random_id
 - Déploiement d’un cluster AKS avec :
    *  Pool de nœuds 
-   *  Autoscaling activé
+   *  Mise à l'échelle automatique activée
    *  Gestion de réseau (Azure CNI + Azure Network Policy)
-   *  Intégration de la surveillance via OMS Agent
+   *  Intégration de la surveillance via OMS Agent ( AMA en production)
 - Déploiement d’un pod et service NGINX pour vérification   
 ## ⚙️ Déploiement
 **Prérequis**
@@ -41,7 +41,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
     ✅ Lancer le plan d'exécution 
          terraform plan | select-string "will be created"
 
-    ✅ Cration des ressources 
+    ✅ Création des ressources 
          terraform apply -auto-approve
 **Pour tester le cluster :**    
 
@@ -54,7 +54,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
      ✅ Déployer l'application NGINX
           kubectl apply -f deployment.yaml
 
-     ✅ Déployer le service loadbalancer exposant l'app NGINX
+     ✅ Déployer le service LoadBalancer exposant l'app NGINX
           kubectl apply -f service.yaml
 
      ✅ Récupérer l'adresse IP du service pour y accéder via navigateur

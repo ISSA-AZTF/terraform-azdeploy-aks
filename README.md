@@ -79,10 +79,10 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 ![Workloads Azure](Images/Workloads.png)
 
 
-### 5- Exposition du service NGINX via une IP publique (LoadBalancer
+### 5- Exposition du service NGINX via une IP publique (LoadBalancer)
 ![NGINX Service IP](Images/services.png)
 
-### 6- Vérification de l’accessibilité du service NGINX via navigateur web
+### 6- Accès au service NGINX via navigateur web
 ![NGINX Browser](Images/nginx_welcome.png)
 ## 🧹 Cleanup (Suppression des ressources)
 

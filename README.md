@@ -85,3 +85,6 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 
      terraform destroy
 ## 📚 Ressources utiles
+- [Terraform Azure Provider Documentation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+- [Azure Kubernetes Service (AKS) Overview](https://learn.microsoft.com/en-us/azure/aks/)
+- [Terraform Functions](https://developer.hashicorp.com/terraform/language/functions) 

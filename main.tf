@@ -5,11 +5,13 @@ resource "random_id" "aks_suffix" {
   }
   byte_length = 3
 }
+
 # Ressource groupe
 resource "azurerm_resource_group" "rg" {
   name     = var.resource_group_name
   location = var.location
 }
+
 # Cluster AKS
 resource "azurerm_kubernetes_cluster" "aks" {
   name                = "${var.aks_name}-${random_id.aks_suffix.hex}"

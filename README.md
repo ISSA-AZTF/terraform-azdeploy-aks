@@ -77,7 +77,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 
 ### Workloads Kubernetes visibles dans le portail Azure
 ![Workloads Azure](Images/Workloads.png)
-<img src="Images/workloads_azure.png"  width="300"/>
+<img src="Images/workloads_azure.png"  width="200"/>
 
 ### Adresse IP externe du service NGINX
 ![NGINX Service IP](Images/services.png)

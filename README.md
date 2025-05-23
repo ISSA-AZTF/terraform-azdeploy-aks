@@ -72,8 +72,8 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 ### Terraform Apply - création des ressources
 ![Terraform Apply](Images/apply_complete.png)
 
-### Liste des nœuds Kubernetes prêts
-![Kubectl Get Nodes](Images/nodes.png)
+### Node Resource Group portail azure
+![Kubectl Get Nodes](Images/node_ressource_groupe.png)
 
 ### Adresse IP externe du service NGINX
 ![NGINX Service IP](Images/services.png)

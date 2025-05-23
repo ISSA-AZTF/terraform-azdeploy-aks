@@ -61,7 +61,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
           kubectl get svc lb-service  
 ## 🧠 Ce que j’ai appris
 - Automatisation complète d’un environnement AKS production-ready
-- Utilisation de blocs dynamiques (dynamic, random_id,data source)  
+- Utilisation de blocs dynamiques (dynamic, random_id, data source)  
 - Compréhension de la transition OMS/MMA vers Azure Monitor Agent (AMA) et son impact sur la supervision AKS
 - Intégration de Log Analytics et de l’observabilité sur Azure
 - Déploiement Kubernetes basique pour validation du cluster

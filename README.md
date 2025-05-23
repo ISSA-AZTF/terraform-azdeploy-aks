@@ -41,7 +41,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
     ✅ Lancer le plan d'exécution 
          terraform plan | select-string "will be created"
 
-    ✅ Appliquer automatiquement 
+    ✅ Cration des ressources 
          terraform apply -auto-approve
 **Pour tester le cluster :**    
 

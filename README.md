@@ -49,7 +49,7 @@ Pour tester le cluster :
      az aks get-credentials --resource-group <your-rg> --name <your-aks-cluster>
 
      ✅ Vérifier les nœuds du cluster
-     kubectl get nodes 
+          kubectl get nodes 
 
      ✅ Déployer l'application NGINX
      kubectl apply -f nginx-deployment.yaml

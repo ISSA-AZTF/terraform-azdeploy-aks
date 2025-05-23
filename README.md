@@ -16,3 +16,5 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
    -  Gestion de réseau (Azure CNI + Azure Network Policy)
    -  Intégration de la surveillance via OMS Agent
 - Déploiement d’un pod et service NGINX pour vérification   
+## ⚙️ Déploiement
+Prérequis

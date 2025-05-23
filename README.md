@@ -35,6 +35,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
      terraform plan | select-string "will be created"
      terraform apply -auto-approve
 Pour tester le cluster :    
+
      az aks get-credentials --resource-group <your-rg> --name <your-aks-cluster>
      kubectl get nodes 
      kubectl apply -f nginx-deployment.yaml

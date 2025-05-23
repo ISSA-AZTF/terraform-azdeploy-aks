@@ -6,7 +6,7 @@ terraform {
       version = "4.25.0"
     }
     random = {
-      source = "hashicorp/random"
+      source  = "hashicorp/random"
       version = "3.7.2"
     }
   }
@@ -15,8 +15,9 @@ terraform {
 provider "azurerm" {
   features {
     resource_group {
-    prevent_deletion_if_contains_resources = false
+      prevent_deletion_if_contains_resources = false
+    }
   }
 }
+provider "random" {
 }
-provider "random" {}

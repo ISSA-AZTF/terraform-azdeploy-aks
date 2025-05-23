@@ -46,7 +46,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 **Pour tester le cluster :**    
 
      ✅ Se connecter au cluster
-          az aks get-credentials --resource-group "rg" --name "aks-b8ac86"
+          az aks get-credentials --resource-group <votre-rg> --name <Nom du cluster>
 
      ✅ Vérifier les nœuds du cluster
           kubectl get nodes 

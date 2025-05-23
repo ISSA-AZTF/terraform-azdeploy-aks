@@ -7,16 +7,15 @@ resource "random_id" "aks_suffix" {
 }
 
 # Ressource groupe
-resource "azurerm_resource_group" "rg" {
-  name     = var.resource_group_name
-  location = var.location
+data "azurerm_resource_group" "rg" {
+  name     = "rg"
 }
 
 # Cluster AKS
 resource "azurerm_kubernetes_cluster" "aks" {
   name                = "${var.aks_name}-${random_id.aks_suffix.hex}"
-  location            = azurerm_resource_group.rg.location
-  resource_group_name = azurerm_resource_group.rg.name
+  location            = data.azurerm_resource_group.rg.location
+  resource_group_name = data.azurerm_resource_group.rg.name
   dns_prefix          = var.dns_prefix
   node_resource_group = var.node_resource_group
   kubernetes_version  = var.k8s_version

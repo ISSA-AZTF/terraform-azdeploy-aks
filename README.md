@@ -84,3 +84,4 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 
 
      terraform destroy
+## 📚 Ressources utiles

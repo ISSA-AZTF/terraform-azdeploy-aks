@@ -35,7 +35,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
      # Initialiser le projet
      terraform init
 
-     # Vérifie la syntaxe
+     ✅ Vérifies la syntaxe
      terraform validate
 
      # Prévisualise les changements à venir

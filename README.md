@@ -69,20 +69,20 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 ### 1- Aperçu du plan d’exécution Terraform — ressources à provisionner
 ![Terraform Plan](Images/execution_plan.png)
 
-### Terraform Apply - création des ressources
+### 2- Résultat de l’application du plan Terraform — création réussie de l'infrastructure
 ![Terraform Apply](Images/apply_complete.png)
 
-### Node Resource Group portail azure
+### 3- Affichage du Node Resource Group généré automatiquement par AKS (portail Azure)
 ![Kubectl Get Nodes](Images/node_ressource_groupe.png)
 
-### Workloads Kubernetes visibles dans le portail Azure
+### 4- Visualisation du déploiement NGINX dans la section Workloads du portail Azure
 ![Workloads Azure](Images/Workloads.png)
 
 
-### Adresse IP externe du service NGINX
+### 5- Exposition du service NGINX via une IP publique (LoadBalancer
 ![NGINX Service IP](Images/services.png)
 
-### Page d’accueil NGINX accessible via navigateur
+### 6- Vérification de l’accessibilité du service NGINX via navigateur web
 ![NGINX Browser](Images/nginx_welcome.png)
 ## 🧹 Cleanup (Suppression des ressources)
 

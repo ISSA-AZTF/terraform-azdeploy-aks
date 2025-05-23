@@ -18,3 +18,6 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 - Déploiement d’un pod et service NGINX pour vérification   
 ## ⚙️ Déploiement
 **Prérequis**
+- Azure CLI configuré et connecté
+- Terraform installé (>= 1.11)
+- Subscription Azure valide

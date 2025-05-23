@@ -66,7 +66,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 - Déploiement Kubernetes basique pour validation du cluster
 ## 📸 Captures d’écran
 
-### Terraform Plan - aperçu des ressources à créer
+### 1- Aperçu du plan d’exécution Terraform — ressources à provisionner
 ![Terraform Plan](Images/execution_plan.png)
 
 ### Terraform Apply - création des ressources

@@ -27,6 +27,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 - Terraform installé (>= 1.11)
 - Subscription Azure valide
 **Étapes**
+     ```
      git clone https://github.com/ton-utilisateur/aks-terraform-cluster.git
      cd aks-terraform-cluster
      terraform init

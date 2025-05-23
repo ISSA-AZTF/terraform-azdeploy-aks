@@ -32,6 +32,9 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
      git clone https://github.com/ton-utilisateur/aks-terraform-cluster.git
      cd aks-terraform-cluster
      terraform init
+     # Vérifie la syntaxe
+     terraform validate
+     # Prévisualise les changements à venir
      terraform plan | select-string "will be created"
      terraform apply -auto-approve
 Pour tester le cluster :    
@@ -46,4 +49,3 @@ Pour tester le cluster :
 - Intégration de Log Analytics et de l’observabilité sur Azure
 - Déploiement Kubernetes basique pour validation du cluster
 ## 📸 Captures d’écran
-    

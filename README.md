@@ -65,3 +65,18 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 - Intégration de Log Analytics et de l’observabilité sur Azure
 - Déploiement Kubernetes basique pour validation du cluster
 ## 📸 Captures d’écran
+
+### Terraform Plan
+![Terraform Plan](Images/execution_plan.png)
+
+### Terraform Apply
+![Terraform Apply](Images/apply_complete.png)
+
+### Kubernetes Nodes Ready
+![Kubectl Get Nodes](Images/nodes.png)
+
+### Service NGINX - IP Externe
+![NGINX Service IP](Images/lb_service.png)
+
+### Page NGINX dans le navigateur
+![NGINX Browser](Images/nginx_welcome.png)

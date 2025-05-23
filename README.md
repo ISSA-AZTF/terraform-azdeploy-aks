@@ -40,3 +40,8 @@ Pour tester le cluster :
      kubectl get nodes 
      kubectl apply -f nginx-deployment.yaml
      kubectl get svc
+## 🧠 Ce que j’ai appris
+- Automatisation complète d’un environnement AKS production-ready
+- Utilisation avancée de Terraform avec dynamic blocks et random_id 
+- Intégration de Log Analytics et de l’observabilité sur Azure
+- Déploiement Kubernetes basique pour validation du cluster    

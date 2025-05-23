@@ -45,9 +45,16 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
          terraform apply -auto-approve
 Pour tester le cluster :    
 
+     ✅ Se connecter au cluster
      az aks get-credentials --resource-group <your-rg> --name <your-aks-cluster>
+
+     ✅ Vérifier les nœuds du cluster
      kubectl get nodes 
+
+     ✅ Déployer l'application NGINX
      kubectl apply -f nginx-deployment.yaml
+
+     ✅ Déployer le service loadbalancer exposant l'app NGINX
      kubectl get svc
 ## 🧠 Ce que j’ai appris
 - Automatisation complète d’un environnement AKS production-ready

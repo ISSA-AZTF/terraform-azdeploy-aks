@@ -57,7 +57,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
      ✅ Déployer le service loadbalancer exposant l'app NGINX
           kubectl apply -f service.yaml
 
-     ✅ Récupérer L'adresse IP du service pour y accéder via navigateur
+     ✅ Récupérer l'adresse IP du service pour y accéder via navigateur
           kubectl get svc lb-service  
 ## 🧠 Ce que j’ai appris
 - Automatisation complète d’un environnement AKS production-ready

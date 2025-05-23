@@ -56,6 +56,7 @@ Pour tester le cluster :
 
      ✅ Déployer le service loadbalancer exposant l'app NGINX
           kubectl apply -f service.yaml
+          
      ✅ Récupérer L'adresse IP du service pour y accéder via navigateur
           kubectl get svc nginx-service  
 ## 🧠 Ce que j’ai appris

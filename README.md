@@ -46,19 +46,19 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 **Pour tester le cluster :**    
 
      ✅ Se connecter au cluster
-          az aks get-credentials --resource-group <your-rg> --name <your-aks-cluster>
+          az aks get-credentials --resource-group "rg" --name "aks-b8ac86"
 
      ✅ Vérifier les nœuds du cluster
           kubectl get nodes 
 
      ✅ Déployer l'application NGINX
-          kubectl apply -f nginx-deployment.yaml
+          kubectl apply -f deployment.yaml
 
      ✅ Déployer le service loadbalancer exposant l'app NGINX
           kubectl apply -f service.yaml
 
      ✅ Récupérer L'adresse IP du service pour y accéder via navigateur
-          kubectl get svc nginx-service  
+          kubectl get svc lb-service  
 ## 🧠 Ce que j’ai appris
 - Automatisation complète d’un environnement AKS production-ready
 - Utilisation avancée de Terraform avec dynamic blocks et random_id 

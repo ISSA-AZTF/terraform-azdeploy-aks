@@ -38,7 +38,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
      ✅ Vérifier la syntaxe
          terraform validate
 
-     ✅ Prévisualiser les changements à venir
+     ✅ Prévisualiser le plan d'exécution
          terraform plan | select-string "will be created"
 
      ✅ Appliquer automatiquement

@@ -55,7 +55,9 @@ Pour tester le cluster :
           kubectl apply -f nginx-deployment.yaml
 
      ✅ Déployer le service loadbalancer exposant l'app NGINX
-          kubectl get svc
+          kubectl apply -f service.yaml
+     ✅ Récupérer L'adresse IP du service pour y accéder via navigateur
+          kubectl get svc nginx-service  
 ## 🧠 Ce que j’ai appris
 - Automatisation complète d’un environnement AKS production-ready
 - Utilisation avancée de Terraform avec dynamic blocks et random_id 

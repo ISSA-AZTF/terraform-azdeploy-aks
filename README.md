@@ -44,4 +44,6 @@ Pour tester le cluster :
 - Automatisation complète d’un environnement AKS production-ready
 - Utilisation avancée de Terraform avec dynamic blocks et random_id 
 - Intégration de Log Analytics et de l’observabilité sur Azure
-- Déploiement Kubernetes basique pour validation du cluster    
+- Déploiement Kubernetes basique pour validation du cluster
+## 📸 Captures d’écran
+    

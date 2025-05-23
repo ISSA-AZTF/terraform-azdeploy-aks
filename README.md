@@ -29,7 +29,6 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 
 **Étapes**
 
-     ```
      git clone https://github.com/ton-utilisateur/aks-terraform-cluster.git
      cd aks-terraform-cluster
      terraform init

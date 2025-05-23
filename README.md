@@ -66,19 +66,19 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 - Déploiement Kubernetes basique pour validation du cluster
 ## 📸 Captures d’écran
 
-### Terraform Plan
+### Terraform Plan - aperçu des ressources à créer
 ![Terraform Plan](Images/execution_plan.png)
 
-### Terraform Apply
+### Terraform Apply - création des ressources
 ![Terraform Apply](Images/apply_complete.png)
 
-### Kubernetes Nodes Ready
+### Liste des nœuds Kubernetes prêts
 ![Kubectl Get Nodes](Images/nodes.png)
 
-### Service NGINX - IP Externe
+### Adresse IP externe du service NGINX
 ![NGINX Service IP](Images/services.png)
 
-### Page NGINX dans le navigateur
+### Page d’accueil NGINX accessible via navigateur
 ![NGINX Browser](Images/nginx_welcome.png)
 ## 🧹 Cleanup (Suppression des ressources)
 Pour détruire toutes les ressources créées par Terraform et libérer les ressources Azure, utiliser la commande suivante dans le dossier du projet :

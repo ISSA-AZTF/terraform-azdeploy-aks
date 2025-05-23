@@ -29,7 +29,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 
 **Étapes**
 
-     ✅ **cloner le repo github localement**
+  ###   ✅ **cloner le repo github localement**
          git clone https://github.com/ton-utilisateur/aks-terraform-cluster.git
          
      ✅ Initialiser le projet

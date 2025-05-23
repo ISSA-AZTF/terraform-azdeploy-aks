@@ -82,4 +82,5 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 ![NGINX Browser](Images/nginx_welcome.png)
 ## 🧹 Cleanup (Suppression des ressources)
 Pour détruire toutes les ressources créées par Terraform et libérer les ressources Azure, utilise la commande suivante dans le dossier du projet :
+
      terraform destroy

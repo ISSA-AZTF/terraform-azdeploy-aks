@@ -19,7 +19,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
    *  Pool de nœuds 
    *  Mise à l'échelle automatique activée
    *  Gestion de réseau (Azure CNI + Azure Network Policy)
-   *  Intégration de la surveillance via OMS Agent ( AMA en production)
+   *  Intégration de la surveillance via OMS Agent (remplacé par Azure Monitor Agent en production)
 - Déploiement d’un pod et service NGINX pour vérification   
 ## ⚙️ Déploiement
 **Prérequis**

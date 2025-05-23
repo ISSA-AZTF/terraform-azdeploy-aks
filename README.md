@@ -7,6 +7,11 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 - Azure Kubernetes Service (AKS)
 - Kubernetes (deployment + service)
 - NGINX
+## 🎯 Objectifs
+- Automatiser la création d’un cluster AKS avec des paramètres dynamiques
+- Utiliser une architecture modulaire pour faciliter la réutilisation et la maintenance
+- Tester le bon fonctionnement du cluster avec le déploiement d’une image NGINX
+- Intégrer la surveillance via Azure Monitor / Log Analytics
 ## 📂 Fonctionnalités principales
 - Création d’un Resource Group Azure
 - Génération d’un nom unique pour le cluster via random_id

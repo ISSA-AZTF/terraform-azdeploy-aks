@@ -76,7 +76,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 ![Kubectl Get Nodes](Images/nodes.png)
 
 ### Service NGINX - IP Externe
-![NGINX Service IP](Images/lb_service.png)
+![NGINX Service IP](Images/service.png)
 
 ### Page NGINX dans le navigateur
 ![NGINX Browser](Images/nginx_welcome.png)

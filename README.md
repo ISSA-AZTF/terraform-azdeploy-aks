@@ -1,18 +1,18 @@
-# 🚀 Création d'un cluster AKS avec Terraform
-## 📌 Description
+# Création d'un cluster AKS avec Terraform
+## Description
 Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) via Terraform,             de manière automatisée, modulaire et reproductible. Il inclut également le déploiement d’un service web simple basé sur NGINX, démontrant la fonctionnalité du cluster après provisioning.
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 - Terraform (Infrastructure as Code)
 - Microsoft Azure
 - Azure Kubernetes Service (AKS)
 - Kubernetes (deployment + service)
 - NGINX
-## 🎯 Objectifs
+## Objectifs
 - Automatiser la création d’un cluster AKS avec des paramètres dynamiques
 - Utiliser une architecture modulaire pour faciliter la réutilisation et la maintenance
 - Tester le bon fonctionnement du cluster avec le déploiement d’une image NGINX
 - Intégrer la surveillance via Azure Monitor / Log Analytics
-## 📂 Fonctionnalités principales
+## Fonctionnalités principales
 - Création d’un Resource Group Azure
 - Génération d’un nom unique pour le cluster via random_id
 - Déploiement d’un cluster AKS avec :
@@ -21,7 +21,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
    *  Gestion de réseau (Azure CNI + Azure Network Policy)
    *  Intégration de la surveillance via OMS Agent (remplacé par Azure Monitor Agent en production)
 - Déploiement d’un pod et service NGINX pour vérification   
-## ⚙️ Déploiement
+## Déploiement
 **Prérequis**
 - Azure CLI configuré et connecté
 - Terraform installé (>= 1.11)
@@ -59,7 +59,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 
      ✅ Récupérer l'adresse IP du service pour y accéder via navigateur
           kubectl get svc lb-service  
-## 🧠 Ce que j’ai appris
+## Ce que j’ai appris
 - Automatisation complète d’un environnement AKS production-ready
 - Utilisation de blocs dynamiques (dynamic, random_id, data source)  
 - Compréhension de la transition OMS/MMA vers Azure Monitor Agent (AMA) et son impact sur la supervision AKS

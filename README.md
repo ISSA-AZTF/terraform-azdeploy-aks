@@ -85,10 +85,10 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 
 ### 6- Accès au service NGINX via navigateur web
 ![NGINX Browser](Images/nginx_welcome.png)
-## 🧹 Cleanup (Suppression des ressources)
+## Cleanup (Suppression des ressources)
 
         terraform destroy
-## 📚 Ressources utiles
+## Ressources utiles
 - [Terraform Azure Provider Documentation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
 - [Azure Kubernetes Service (AKS) Overview](https://learn.microsoft.com/en-us/azure/aks/)
 - [Terraform Functions](https://developer.hashicorp.com/terraform/language/functions) 

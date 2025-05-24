@@ -76,7 +76,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 ### 3- Affichage du Node Resource Group généré automatiquement par AKS (portail Azure)
 ![Kubectl Get Nodes](Images/node_ressource_groupe.png)
 
-### 4- Visualisation du déploiement NGINX dans la section Workloads du portail Azure
+### 4- Visualisation du déploiement NGINX dans le volet Workloads du portail Azure
 ![Workloads Azure](Images/Workloads.png)
 
 

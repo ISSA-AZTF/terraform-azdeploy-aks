@@ -85,7 +85,7 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 
 ### 6- Accès au service NGINX via navigateur web
 ![NGINX Browser](Images/nginx_welcome.png)
-## Cleanup (Suppression des ressources)
+## Suppression des ressources
 
         terraform destroy
 ## Ressources utiles

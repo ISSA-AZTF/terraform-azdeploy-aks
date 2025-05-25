@@ -80,7 +80,7 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
 ### 3- AKS – Node Resource Group
 ![Kubectl Get Nodes](Images/node_ressource_groupe.png)
 
-### 4- DAKS – Workload NGINX
+### 4- AKS – Workload NGINX
 ![Workloads Azure](Images/Workloads.png)
 
 

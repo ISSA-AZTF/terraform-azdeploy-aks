@@ -9,7 +9,7 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
 - NGINX
 ## Objectifs
 - Automatiser la création d’un cluster AKS avec des paramètres dynamiques
-- Utiliser une architecture modulaire pour faciliter la réutilisation et la maintenance
+- Utiliser une architecture structurée pour faciliter la réutilisation et la maintenance
 - Tester le bon fonctionnement du cluster avec le déploiement d’une image NGINX
 - Intégrer la surveillance via Azure Monitor / Log Analytics
 ## Fonctionnalités principales
@@ -71,23 +71,23 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
 - Déploiement Kubernetes basique pour validation du cluster
 ## 📸 Captures d’écran
 
-### 1- Prévisualisation du déploiement
+### 1- Terraform Plan – Aperçu
 ![Terraform Plan](Images/execution_plan.png)
 
-### 2- Infrastructure provisionnée
+### 2- Terraform Apply – Résultat
 ![Terraform Apply](Images/apply_complete.png)
 
-### 3- Groupe infra AKS (généré automatiquement)
+### 3- AKS – Node Resource Group
 ![Kubectl Get Nodes](Images/node_ressource_groupe.png)
 
-### 4- Déploiement NGINX – Vue Workloads (AKS)
+### 4- DAKS – Workload NGINX
 ![Workloads Azure](Images/Workloads.png)
 
 
-### 5- Exposition du service NGINX via une IP publique (LoadBalancer)
+### 5- NGINX – Service LoadBalancer
 ![NGINX Service IP](Images/services.png)
 
-### 6- Accès au service NGINX via navigateur web
+### 6- NGINX – Test Navigateur
 ![NGINX Browser](Images/nginx_welcome.png)
 ## Suppression des ressources
 

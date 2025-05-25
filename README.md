@@ -63,13 +63,13 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
            kubectl get nodes 
 
      - Déployer l'application NGINX :
-       -----------
+       
 
-           kubectl apply -f deployment.yaml
+           *kubectl apply -f deployment.yaml*
 
      - Déployer le service LoadBalancer exposant l'app NGINX :
 
-           kubectl apply -f service.yaml
+           *kubectl apply -f service.yaml*
 
      - Récupérer l'adresse IP du service pour y accéder via navigateur :
 

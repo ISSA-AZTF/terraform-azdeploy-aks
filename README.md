@@ -33,35 +33,35 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
 
 **Étapes**
 
-    ✅ Cloner le repo github localement 
+    - Cloner le repo github localement 
          git clone https://github.com/ISSA-AZTF/tf-aks.git
          
-    ✅ Initialiser le projet 
+    - Initialiser le projet 
          terraform init
 
-    ✅ Vérifier la syntaxe 
+    - Vérifier la syntaxe 
          terraform validate
 
-    ✅ Lancer le plan d'exécution 
+    - Lancer le plan d'exécution 
          terraform plan 
 
-    ✅ Création des ressources 
+    - Création des ressources 
          terraform apply -auto-approve
 **Pour tester le cluster :**    
 
-     ✅ Se connecter au cluster
+     - Se connecter au cluster
           az aks get-credentials --resource-group "rg" --name "aks-${random_id}"
 
-     ✅ Vérifier les nœuds du cluster
+     - Vérifier les nœuds du cluster
           kubectl get nodes 
 
-     ✅ Déployer l'application NGINX
+     - Déployer l'application NGINX
           kubectl apply -f deployment.yaml
 
-     ✅ Déployer le service LoadBalancer exposant l'app NGINX
+     - Déployer le service LoadBalancer exposant l'app NGINX
           kubectl apply -f service.yaml
 
-     ✅ Récupérer l'adresse IP du service pour y accéder via navigateur
+     - Récupérer l'adresse IP du service pour y accéder via navigateur
           kubectl get svc lb-service  
 ## Ce que j’ai appris
 - Automatisation complète d’un environnement AKS production-ready

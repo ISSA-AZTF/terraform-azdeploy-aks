@@ -63,6 +63,7 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
            kubectl get nodes 
 
      - Déployer l'application NGINX :
+       -----------
 
            kubectl apply -f deployment.yaml
 

@@ -71,13 +71,13 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
 - Déploiement Kubernetes basique pour validation du cluster
 ## 📸 Captures d’écran
 
-### 1- Terraform Plan – Aperçu
+### 1- Prévisualisation du déploiement
 ![Terraform Plan](Images/execution_plan.png)
 
-### 2- Terraform Apply – Création réussie
+### 2- Infrastructure provisionnée
 ![Terraform Apply](Images/apply_complete.png)
 
-### 3- Node RG auto-généré par AKS
+### 3- Groupe de ressources AKS – Nœuds
 ![Kubectl Get Nodes](Images/node_ressource_groupe.png)
 
 ### 4- NGINX – Workloads AKS (Azure Portal)

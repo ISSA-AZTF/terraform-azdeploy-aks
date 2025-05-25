@@ -50,7 +50,7 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
 **Pour tester le cluster :**    
 
      ✅ Se connecter au cluster
-          az aks get-credentials --resource-group "rg" --name "aks-2bc0ba"
+          az aks get-credentials --resource-group "rg" --name "aks-${random_id}"
 
      ✅ Vérifier les nœuds du cluster
           kubectl get nodes 

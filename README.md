@@ -35,7 +35,7 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
 
 - Cloner le repo github localement :
 
-      git clone https://github.com/ISSA-AZTF/tf-aks.git
+      git clone https://github.com/ISSA-AZTF/terraform-azdeploy-aks.git
          
 - Initialiser le projet :
 

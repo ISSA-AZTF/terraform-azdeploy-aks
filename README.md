@@ -15,12 +15,16 @@ Ce projet met en place un cluster Kubernetes (AKS - Azure Kubernetes Service) vi
 ## Fonctionnalités principales
 - Création d’un Resource Group Azure
 - Génération d’un nom unique pour le cluster via random_id
-- Déploiement d’un cluster AKS avec :
-   ~>  Pool de nœuds 
-   *  Mise à l'échelle automatique activée
-   *  Gestion de réseau (Azure CNI + Azure Network Policy)
-   *  Intégration de la surveillance via OMS Agent (remplacé par Azure Monitor Agent en production)
-- Déploiement d’un pod et service NGINX pour vérification   
+- Cluster AKS :
+   *  Pool de nœuds configuré
+   *  Mise à l’échelle automatique activée (auto-scaling)
+   *  Gestion réseau avec Azure CNI et Azure Network Policy
+- Surveillance & observabilité :
+
+   * Intégration via OMS Agent (remplacé en production par Azure Monitor Agent)   
+- Déploiement applicatif :
+
+   * Pod + Service NGINX déployés pour validation du cluster
 ## Déploiement
 **Prérequis**
 - Azure CLI configuré et connecté

@@ -77,7 +77,7 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
 ### 2- Infrastructure provisionnée
 ![Terraform Apply](Images/apply_complete.png)
 
-### 3- Groupe de ressources AKS – Nœuds
+### 3- Groupe infra AKS (généré automatiquement)
 ![Kubectl Get Nodes](Images/node_ressource_groupe.png)
 
 ### 4- Déploiement NGINX – Vue Workloads (AKS)

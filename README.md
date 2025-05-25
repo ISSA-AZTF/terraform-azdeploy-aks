@@ -80,7 +80,7 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
 ### 3- Groupe de ressources AKS – Nœuds
 ![Kubectl Get Nodes](Images/node_ressource_groupe.png)
 
-### 4- NGINX – Workloads AKS (Azure Portal)
+### 4- Déploiement NGINX – Vue Workloads (AKS)
 ![Workloads Azure](Images/Workloads.png)
 
 

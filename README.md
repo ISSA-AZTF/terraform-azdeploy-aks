@@ -74,12 +74,7 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
 - Récupérer l'adresse IP du service pour y accéder via navigateur :
 
       kubectl get svc lb-service  
-## Ce que j’ai appris
-- Automatisation complète d’un environnement AKS production-ready
-- Utilisation de blocs dynamiques (dynamic, random_id, data source)  
-- Transition OMS/MMA vers Azure Monitor Agent (AMA) et son impact sur la supervision AKS
-- Intégration de Log Analytics et de l’observabilité sur Azure
-- Déploiement Kubernetes basique pour validation du cluster
+
 ## 📸 Captures d’écran
 
 ### 1- Terraform Plan – Aperçu

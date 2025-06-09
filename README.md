@@ -43,6 +43,19 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
                image: nginx   
                ports:
                - containerPort: 80
+      ------------------------------
+       apiVersion: v1
+       kind: Service
+       metadata:
+         name: lb-service
+       spec:
+         selector:
+           app: hello-world
+         ports:
+         - protocol: TCP
+           port: 80
+           targetPort: 80
+         type: LoadBalancer         
 ## Déploiement
 **Prérequis**
 - Azure CLI configuré et connecté

@@ -53,8 +53,8 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
      
       terraform apply -auto-approve
 
-![terraform_apply](Images/apply_complete.png)   
-   
+![terraform_apply](Images/terraform_apply.png)   
+
 **Pour tester le cluster :**    
 
 - Se connecter au cluster :

@@ -43,7 +43,7 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
                image: nginx   
                ports:
                - containerPort: 80
-      ------------------------------
+      ---
        apiVersion: v1
        kind: Service
        metadata:

@@ -44,6 +44,7 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
                ports:
                - containerPort: 80
       ---
+      
        apiVersion: v1
        kind: Service
        metadata:

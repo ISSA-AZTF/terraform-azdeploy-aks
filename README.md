@@ -14,7 +14,7 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
 - Intégrer la surveillance via Azure Monitor / Log Analytics
 ## Fonctionnalités principales
 - Création d’un Resource Group Azure
-- Génération d’un nom unique pour le cluster via random_id
+- Génération d’un nom unique pour le cluster via `random_id`
 - Cluster AKS :
    *  Pool de nœuds configuré
    *  Mise à l’échelle automatique activée (auto-scaling)

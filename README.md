@@ -25,7 +25,7 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
 - Déploiement applicatif :
 
 
-```yaml
+   ```yaml
 
        apiVersion: apps/v1
        kind: Deployment

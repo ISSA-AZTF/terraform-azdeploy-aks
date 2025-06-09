@@ -24,7 +24,25 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
    * Intégration via OMS Agent (remplacé en production par Azure Monitor Agent)   
 - Déploiement applicatif :
 
-   * Pod + Service NGINX déployés pour validation du cluster
+       apiVersion: apps/v1
+       kind: Deployment
+       metadata:
+         name: aks-deployment
+       spec:
+         replicas: 1
+         selector:
+           matchLabels:
+             app: hello-world
+         template:
+           metadata:
+             labels:
+               app: hello-world
+           spec:
+             containers:
+             - name: hello
+               image: nginx   
+               ports:
+               - containerPort: 80
 ## Déploiement
 **Prérequis**
 - Azure CLI configuré et connecté

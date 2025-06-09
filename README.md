@@ -59,7 +59,8 @@ Ce step-by-step met en place un cluster Kubernetes (**AKS** - *Azure Kubernetes 
          - protocol: TCP
            port: 80
            targetPort: 80
-         type: LoadBalancer         
+         type: LoadBalancer
+   ```                
 ## Déploiement
 **Prérequis**
 - Azure CLI configuré et connecté
